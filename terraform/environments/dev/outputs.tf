@@ -1,0 +1,1 @@
+output "environment" { value="dev" }
