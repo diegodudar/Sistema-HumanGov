@@ -1,10 +1,6 @@
-\# Módulo EC2
+\# Amazon EC2
 
 
 
-Este módulo foi criado durante a Fase 2 do projeto HumanGov.
-
-
-
-Sua implementação será desenvolvida nas próximas fases do bootcamp.
+Representa as instâncias EC2 utilizadas pelos tenants da arquitetura SaaS apresentada nesta fase do projeto.
 

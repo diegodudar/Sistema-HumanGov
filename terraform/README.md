@@ -6,7 +6,7 @@ O objetivo desta fase é estruturar o projeto de forma reutilizável, separando 
 
 ## Estrutura
 
-```text
+
 terraform/
 ├── docs/
 ├── environments/
@@ -17,7 +17,7 @@ terraform/
     ├── iam/
     ├── networking/
     └── s3/
-```
+
 
 ### environments
 
@@ -40,3 +40,18 @@ Os módulos criados nesta etapa representam os principais componentes que serão
 ## Objetivo da fase
 
 Esta implementação tem como finalidade preparar a estrutura inicial do Terraform para dar suporte às próximas etapas do projeto, mantendo a infraestrutura organizada e versionada juntamente com o código da aplicação.
+
+## Arquitetura
+
+Nesta etapa foi iniciada a implementação de uma infraestrutura SaaS, Multi-Tenant e reutilizável utilizando módulos Terraform.
+
+A solução contempla os seguintes serviços:
+
+- AWS CodeCommit
+- Amazon EC2
+- Amazon DynamoDB
+- Amazon S3
+
+Os módulos foram organizados de forma reutilizável para permitir a evolução da infraestrutura nas próximas fases do projeto HumanGov.
+
+

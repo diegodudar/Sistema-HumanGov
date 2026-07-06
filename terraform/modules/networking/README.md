@@ -1,10 +1,6 @@
-\# Módulo Networking
+\# Networking
 
 
 
-Este módulo foi criado durante a Fase 2 do projeto HumanGov.
-
-
-
-Sua implementação será desenvolvida nas próximas fases do bootcamp.
+Representa a estrutura lógica de rede necessária para suportar os recursos da infraestrutura apresentados nesta fase.
 
