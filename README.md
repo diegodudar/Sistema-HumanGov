@@ -6,7 +6,7 @@ Projeto de portfólio baseado no trabalho final de um bootcamp DevOps/AWS.
 
 ## Roadmap
 - [x] Foundation
-- [ ] Terraform
+- [x] Terraform
 - [ ] Ansible
 - [ ] ECS
 - [ ] EKS

@@ -12,9 +12,9 @@ terraform/
 ├── environments/
 │   └── dev/
 └── modules/
+    |── codecommit/
     ├── dynamodb/
     ├── ec2/
-    ├── iam/
     ├── networking/
     └── s3/
 
@@ -31,7 +31,7 @@ A infraestrutura foi organizada em módulos independentes, facilitando sua manut
 
 Os módulos criados nesta etapa representam os principais componentes que serão utilizados nas próximas fases do HumanGov:
 
-* IAM
+* CodeCommit
 * EC2
 * S3
 * DynamoDB

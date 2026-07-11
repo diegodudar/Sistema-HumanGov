@@ -1,0 +1,16 @@
+---
+- name: Deploy HumanGov
+
+  hosts: humangov
+
+  become: true
+
+  tasks:
+
+    - name: Copiar aplicação HumanGov
+      debug:
+        msg: "Deploy da aplicação HumanGov"
+
+    - name: Configurar ambiente
+      debug:
+        msg: "Configuração realizada com Ansible"
