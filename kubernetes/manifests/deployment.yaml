@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: humangov-app
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: humangov
+
+  template:
+
+    metadata:
+      labels:
+        app: humangov
+
+    spec:
+
+      containers:
+
+      - name: humangov
+
+        image: humangov:latest
